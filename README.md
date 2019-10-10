@@ -1,10 +1,10 @@
 # graceful
 A golang package that can gracefully restart/stop HTTP service.
 
-###Install
+### Install
 go get -u github.com/heyHui2018/graceful
 
-###Example
+### Example
 ```
 package main
 
