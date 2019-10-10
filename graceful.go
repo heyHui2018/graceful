@@ -59,6 +59,7 @@ func (g *Graceful) check() error {
 	for k := range g.RestartSignalMap {
 		signals = append(signals, k)
 	}
+	return nil
 }
 
 func (g *Graceful) Run() error {
@@ -107,6 +108,7 @@ func (g *Graceful) Stop() error {
 	if err != nil {
 		return err
 	}
+	return nil
 }
 
 func (g *Graceful) ReStart() error {
